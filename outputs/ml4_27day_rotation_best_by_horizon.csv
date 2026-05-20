@@ -1,0 +1,6 @@
+horizon_days,feature_set,model,n_train,n_test,MAE,RMSE,R2,MAE_current_only,improvement_vs_current_only_%
+1,rotation_local_stats,Ridge,23085,5772,3.704,5.769,0.98,3.732,0.75
+7,rotation_local_stats,Ridge,23080,5771,12.603,18.396,0.794,15.472,18.544
+14,rotation_all,Ridge,23075,5769,12.898,18.412,0.793,18.991,32.083
+27,rotation_local_stats,Ridge,23064,5767,13.008,18.471,0.792,14.566,10.694
+81,rotation_local_stats,Ridge,23021,5756,16.358,23.082,0.676,18.549,11.812

@@ -1,0 +1,8 @@
+horizon_days,feature_set,model,n_train,n_test,MAE,RMSE,R2,MAE_current_only,improvement_vs_current_only_%
+1,standard_lag_rolling,Ridge,19965,4992,3.248,5.235,0.985,3.774,13.934
+7,standard_lag_rolling,Ridge,19965,4992,11.33,16.774,0.844,15.771,28.158
+27,standard_lag_rolling,Ridge,19965,4992,13.135,19.141,0.796,14.759,11.004
+81,structural_all,RandomForest,19965,4992,15.776,22.865,0.709,18.033,12.519
+180,structural_all,HistGradientBoosting,19965,4992,17.301,24.519,0.666,19.905,13.079
+365,structural_all,HistGradientBoosting,19965,4992,19.823,26.655,0.605,24.652,19.588
+730,structural_all,HistGradientBoosting,19965,4992,24.422,31.148,0.461,33.679,27.488

@@ -1,0 +1,6 @@
+method,estimated_period_years,details,comment
+"Detected minima, SMA 25",10.9,Mean minimum-to-minimum cycle length; range 10.08-12.08 years,Direct estimate from detected solar-cycle minima
+Monthly ACF,10.67,Strongest ACF peak in solar-cycle range; lag = 128 months,Checks recurrence of the monthly series
+FFT spectrum,11.33,Dominant spectral period in the 5-20 year range,Checks the strongest long-term frequency component
+Smoothing sensitivity,10.9,Mean across SMA windows; range 10.85-10.94 years,Checks whether the period estimate is stable under different smoothing windows
+STL decomposition,10.67,STL fitted with 128-month period,Decomposition-based check of the long-term cyclic structure
